@@ -1,0 +1,30 @@
+default/poker
+mvmt:2t to 1l cardinal
+atk:instant 2t out 2l cardinal
+
+lobber
+mvmt:4t to 1l diagonal
+atk:object 3t out 5l + pattern, 3t anim
+
+pincher
+mvmt:1t to 1l diagonal
+atk:instant 1t to 1l cardinal
+
+vaulter
+mvmt: 2t out 3l cardinal
+atk:instant 2t to 3l cardinal
+
+weak
+mvmt: 3t to 1l cardinal
+atk:instant 2t to 1l cardinal
+
+t is time units (0.25 seconds)
+l is lilys (1 square on the grid)
+to means attack or movement is a line that gets obstructed by walls and enemies, out means a point  that is not
+instant attack means no animation time just happens
+anim means travel time
+
+pincher = L
+vaulter = P
+weakling = F
+lobber = M
